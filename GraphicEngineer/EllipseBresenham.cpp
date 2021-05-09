@@ -1,6 +1,6 @@
-#include <GL/glut.h>
+#include <GL/freeglut.h>
 #include <math.h>
-#include "EllipseBresenham.h"
+
 void initGLEllipseBresenham(){
 	glClearColor(1.0f, 1.0f, 1.0f, 1.0f); //R=0,G=0,B=0, anpha=1
 	glOrtho(-320, 320, -240, 240, -1, 1);
@@ -61,4 +61,19 @@ void mydisplayEllipseBresenham(){
 	EllipseBresenham(0, 0, 300, 200); //Tâm C(0,0) bán kính 200
 	glViewport(0, 0, 640, 480);
 	glFlush();
+}
+
+void EllipseBresenhamMethod() {
+	int mode = GLUT_SINGLE | GLUT_RGB;
+	glutInitDisplayMode(mode);
+	glutInitWindowSize(640, 480);
+	glutInitWindowPosition(0, 0);
+	glutCreateWindow("DEMO THUAT TOAN VE DUONG ELLIPSE - BRESENHAM");
+	initGLEllipseBresenham();
+	glutDisplayFunc(mydisplayEllipseBresenham);
+	glutSetOption(GLUT_ACTION_ON_WINDOW_CLOSE, GLUT_ACTION_GLUTMAINLOOP_RETURNS);
+	//cach 1
+	glutMainLoop();
+	//cach 2
+	//glutMainLoopEvent();
 }

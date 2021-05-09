@@ -1,17 +1,29 @@
-#include <GL/glut.h>
+#include <GL/freeglut.h>
 #include <math.h>
+#include <iostream>
 #include "EllipseBresenham.h"
+#include "EllipseMidpoint.h"
+using namespace std;
 
 int main(int argc, char** argv) {
-	int mode = GLUT_SINGLE | GLUT_RGB;
-	glutInitDisplayMode(mode);
-
-	glutInitWindowSize(640, 480);
-	glutInitWindowPosition(0, 0);
-	glutCreateWindow("DEMO THUAT TOAN VE DUONG ELLIPSE - BRESENHAM");
-
-	initGLEllipseBresenham();
-	glutDisplayFunc(mydisplayEllipseBresenham);
-	glutMainLoop();
-	
+	int select;
+	cout << "Nhap lua chon cua ban" << endl;
+	cout << "1.EllipseBresenham" << endl << "2.EllipseMidpoint" << endl;
+	cout << "0.Thoat" << endl; 
+	//cach 2
+	//glutInit(&argc, argv);
+	while(true) {
+		cin >> select;
+		//cach 1
+		glutInit(&argc, argv); 
+		if (select == 1) {
+			EllipseBresenhamMethod();
+		}
+		else if (select == 2) {
+			EllipseMidpointMethod();
+		}
+		else if (select == 0) {
+			break;
+		}
+	}
 }
