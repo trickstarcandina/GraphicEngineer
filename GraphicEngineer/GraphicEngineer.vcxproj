@@ -19,7 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ellipse_Bresenham.cpp" />
+    <ClCompile Include="EllipseBresenham.cpp" />
+    <ClCompile Include="MainSource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EllipseBresenham.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GraphicEngineer.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
