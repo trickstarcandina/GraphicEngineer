@@ -19,11 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CircleBresenham.cpp" />
+    <ClCompile Include="CircleMidpoint.cpp" />
     <ClCompile Include="EllipseBresenham.cpp" />
     <ClCompile Include="EllipseMidpoint.cpp" />
     <ClCompile Include="MainSource.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CircleBresenham.h" />
+    <ClInclude Include="CircleMidpoint.h" />
     <ClInclude Include="EllipseBresenham.h" />
     <ClInclude Include="EllipseMidpoint.h" />
     <ClInclude Include="resource.h" />
