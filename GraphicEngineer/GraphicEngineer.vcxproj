@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="character.cpp" />
     <ClCompile Include="CircleBresenham.cpp" />
     <ClCompile Include="CircleMidpoint.cpp" />
     <ClCompile Include="EllipseBresenham.cpp" />
@@ -27,6 +28,7 @@
     <ClCompile Include="polygons.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="character.h" />
     <ClInclude Include="CircleBresenham.h" />
     <ClInclude Include="CircleMidpoint.h" />
     <ClInclude Include="EllipseBresenham.h" />

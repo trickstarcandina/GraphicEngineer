@@ -22,6 +22,9 @@
     <Filter Include="Source Files\polygons">
       <UniqueIdentifier>{06462680-754a-409a-8ff7-f410a444199d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\character">
+      <UniqueIdentifier>{4c56b183-38fb-4b31-8135-f88447e3d5ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EllipseBresenham.cpp">
@@ -42,6 +45,9 @@
     <ClCompile Include="polygons.cpp">
       <Filter>Source Files\polygons</Filter>
     </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Source Files\character</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -61,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="polygons.h">
       <Filter>Source Files\polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Source Files\character</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
