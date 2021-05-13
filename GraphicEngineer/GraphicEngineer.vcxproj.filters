@@ -25,6 +25,9 @@
     <Filter Include="Source Files\character">
       <UniqueIdentifier>{4c56b183-38fb-4b31-8135-f88447e3d5ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\LineIntersection">
+      <UniqueIdentifier>{f03b567a-5ad2-4141-b5f5-8e21dfdd82b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EllipseBresenham.cpp">
@@ -48,6 +51,9 @@
     <ClCompile Include="character.cpp">
       <Filter>Source Files\character</Filter>
     </ClCompile>
+    <ClCompile Include="LineIntersection.cpp">
+      <Filter>Source Files\LineIntersection</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -70,6 +76,9 @@
     </ClInclude>
     <ClInclude Include="character.h">
       <Filter>Source Files\character</Filter>
+    </ClInclude>
+    <ClInclude Include="LineIntersection.h">
+      <Filter>Source Files\LineIntersection</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

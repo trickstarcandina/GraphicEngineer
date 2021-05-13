@@ -4,7 +4,7 @@
 
 #include <GL/glut.h>
 #include <math.h>
-
+/*
 void initGLPolygons();
 typedef struct Dinh {
 	int x, y;
@@ -12,6 +12,8 @@ typedef struct Dinh {
 void VeDaGiac(Dinh d[], int n);
 void EllipseMidpoint(int xc, int yc, double a, double b);
 void mydisplayPolygons();
+*/
+
 void PolygonsMethod();
 
 #endif

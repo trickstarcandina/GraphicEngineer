@@ -4,11 +4,13 @@
 
 #include <GL/glut.h>
 #include <math.h>
-
-void initGLCircleMidpoint();
+/*
+* void initGLCircleMidpoint();
 void draw8pointCircleMidpoint(int xc, int yc, int x, int y);
 void CircleMidpoint(int xc, int yc, int R);
 void mydisplayCircleMidpoint();
+*/
+
 void CircleMidpointMethod();
 
 #endif

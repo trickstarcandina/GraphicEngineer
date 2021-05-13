@@ -5,10 +5,10 @@
 #include <GL/glut.h>
 #include <math.h>
 
-void initGLCharacter();
-void makeCharactersRaster();
-void printString(const char* string);
-void mydisplayCharacter();
+//void initGLCharacter();
+//void makeCharactersRaster();
+//void printString(const char* string);
+//void mydisplayCharacter();
 void CharacterMethod();
 
 #endif
