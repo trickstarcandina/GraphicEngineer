@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Circle">
       <UniqueIdentifier>{435ea8ff-25f4-4216-a0cf-f405bb6d4dd5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\polygons">
+      <UniqueIdentifier>{06462680-754a-409a-8ff7-f410a444199d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EllipseBresenham.cpp">
@@ -36,6 +39,9 @@
     <ClCompile Include="CircleMidpoint.cpp">
       <Filter>Source Files\Circle</Filter>
     </ClCompile>
+    <ClCompile Include="polygons.cpp">
+      <Filter>Source Files\polygons</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -52,6 +58,9 @@
     </ClInclude>
     <ClInclude Include="CircleMidpoint.h">
       <Filter>Source Files\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="polygons.h">
+      <Filter>Source Files\polygons</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

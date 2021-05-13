@@ -5,6 +5,7 @@
 #include "EllipseMidpoint.h"
 #include "CircleBresenham.h"
 #include "CircleMidpoint.h"
+#include "polygons.h"
 using namespace std;
 
 int main(int argc, char** argv) {
@@ -12,6 +13,7 @@ int main(int argc, char** argv) {
 	cout << "Nhap lua chon cua ban" << endl;
 	cout << "1.EllipseBresenham" << endl << "2.EllipseMidpoint" << endl;
 	cout << "3.CircleBresenham" << endl << "4.CircleMidpoint" << endl;
+	cout << "5.Polygons" << endl;
 	cout << "0.Thoat" << endl; 
 	//cach 2
 	//glutInit(&argc, argv);
@@ -35,6 +37,10 @@ int main(int argc, char** argv) {
 			case 4:
 				glutInit(&argc, argv);
 				CircleMidpointMethod();
+				break;
+			case 5:
+				glutInit(&argc, argv);
+				PolygonsMethod();
 				break;
 			default:
 				cout << "Ban da nhap sai vui long nhap lai" << endl;

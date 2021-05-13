@@ -24,12 +24,14 @@
     <ClCompile Include="EllipseBresenham.cpp" />
     <ClCompile Include="EllipseMidpoint.cpp" />
     <ClCompile Include="MainSource.cpp" />
+    <ClCompile Include="polygons.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleBresenham.h" />
     <ClInclude Include="CircleMidpoint.h" />
     <ClInclude Include="EllipseBresenham.h" />
     <ClInclude Include="EllipseMidpoint.h" />
+    <ClInclude Include="polygons.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
