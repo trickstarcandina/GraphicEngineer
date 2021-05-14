@@ -8,6 +8,8 @@
 #include "polygons.h"
 #include "character.h"
 #include "LineIntersection.h"
+#include "LineBresenham.h"
+#include "LineMidpoint.h"
 using namespace std;
 
 int main(int argc, char** argv) {
@@ -26,6 +28,14 @@ int main(int argc, char** argv) {
 		if (select == 0) break;
 		//cach 1
 		switch (select) {
+			case 1:
+				glutInit(&argc, argv);
+				LineBresenhamMethod();
+				break;
+			case 2:
+				glutInit(&argc, argv);
+				LineMidpointMethod();
+				break;
 			case 3:
 				glutInit(&argc, argv);
 				EllipseBresenhamMethod();

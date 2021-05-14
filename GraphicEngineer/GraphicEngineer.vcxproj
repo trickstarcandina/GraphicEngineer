@@ -24,7 +24,9 @@
     <ClCompile Include="CircleMidpoint.cpp" />
     <ClCompile Include="EllipseBresenham.cpp" />
     <ClCompile Include="EllipseMidpoint.cpp" />
+    <ClCompile Include="LineBresenham.cpp" />
     <ClCompile Include="LineIntersection.cpp" />
+    <ClCompile Include="LineMidpoint.cpp" />
     <ClCompile Include="MainSource.cpp" />
     <ClCompile Include="polygons.cpp" />
   </ItemGroup>
@@ -34,7 +36,9 @@
     <ClInclude Include="CircleMidpoint.h" />
     <ClInclude Include="EllipseBresenham.h" />
     <ClInclude Include="EllipseMidpoint.h" />
+    <ClInclude Include="LineBresenham.h" />
     <ClInclude Include="LineIntersection.h" />
+    <ClInclude Include="LineMidpoint.h" />
     <ClInclude Include="polygons.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
