@@ -13,10 +13,11 @@ using namespace std;
 int main(int argc, char** argv) {
 	int select;
 	cout << "Nhap lua chon cua ban" << endl;
-	cout << "1.EllipseBresenham" << endl << "2.EllipseMidpoint" << endl;
-	cout << "3.CircleBresenham" << endl << "4.CircleMidpoint" << endl;
-	cout << "5.Polygons(Sinh Da Giac)" << endl << "6.Character(Sinh Ki Tu)" << endl;
-	cout << "7.LineIntersection(Giao diem)" << endl;
+	cout << "1.Line Bresenham" <<endl << "2.Line Midpoint" << endl;
+	cout << "3.Ellipse Bresenham" << endl << "4.Ellipse Midpoint" << endl;
+	cout << "5.Circle Bresenham" << endl << "6.Circle Midpoint" << endl;
+	cout << "7.Polygons (Sinh Da Giac)" << endl << "8.Character (Sinh Ki Tu)" << endl;
+	cout << "9.LineIntersection (Giao diem)" << endl;
 	cout << "0.Thoat" << endl; 
 	//cach 2
 	//glutInit(&argc, argv);
@@ -25,31 +26,31 @@ int main(int argc, char** argv) {
 		if (select == 0) break;
 		//cach 1
 		switch (select) {
-			case 1:
+			case 3:
 				glutInit(&argc, argv);
 				EllipseBresenhamMethod();
 				break;
-			case 2:
+			case 4:
 				glutInit(&argc, argv);
 				EllipseMidpointMethod();
 				break;
-			case 3: 
+			case 5: 
 				glutInit(&argc, argv);
 				CircleBresenhamMethod();
 				break;
-			case 4:
+			case 6:
 				glutInit(&argc, argv);
 				CircleMidpointMethod();
 				break;
-			case 5:
+			case 7:
 				glutInit(&argc, argv);
 				PolygonsMethod();
 				break;
-			case 6:
+			case 8:
 				glutInit(&argc, argv);
 				CharacterMethod();
 				break;
-			case 7:
+			case 9:
 				LineIntersectionMethod();
 				break;
 			default:
