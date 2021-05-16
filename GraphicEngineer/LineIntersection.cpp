@@ -19,7 +19,7 @@ bool onSegment(point p, point q, point r)
 
 int orientation(point p, point q, point r)	//orentation la ham xac dinh huong giua 3 diem
 {
-    int val = (q.second - p.second) * (r.first - q.first) -
+    double val = (q.second - p.second) * (r.first - q.first) -
         (q.first - p.first) * (r.second - q.second);
 
     if (val == 0) return 0;  // cung mot duong thang
@@ -105,7 +105,7 @@ void LineIntersectionMethod(){
     cout << "Nhap so bo test: " << endl;
     cin >> t;
     while (t--) {
-        int x1, y1, x2, y2, x3, y3, x4, y4;
+        double  x1, y1, x2, y2, x3, y3, x4, y4;
         cout << "Toa do diem A la: " << endl;
         cin >> x1 >> y1;						//nhap diem A
         point A = make_pair(x1, y1);
