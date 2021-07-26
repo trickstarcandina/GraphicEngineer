@@ -68,32 +68,32 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EllipseBresenham.h">
-      <Filter>Source Files\Ellipse</Filter>
-    </ClInclude>
-    <ClInclude Include="EllipseMidpoint.h">
-      <Filter>Source Files\Ellipse</Filter>
+    <ClInclude Include="character.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CircleBresenham.h">
-      <Filter>Source Files\Circle</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CircleMidpoint.h">
-      <Filter>Source Files\Circle</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="polygons.h">
-      <Filter>Source Files\polygons</Filter>
+    <ClInclude Include="EllipseBresenham.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="character.h">
-      <Filter>Source Files\character</Filter>
-    </ClInclude>
-    <ClInclude Include="LineIntersection.h">
-      <Filter>Source Files\LineIntersection</Filter>
+    <ClInclude Include="EllipseMidpoint.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LineBresenham.h">
-      <Filter>Source Files\Line</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LineMidpoint.h">
-      <Filter>Source Files\Line</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineIntersection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="polygons.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
